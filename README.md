@@ -4,8 +4,8 @@ Repository accompanying the talk in the COMLIT 202C 001 - LEC 001 class at UC Be
 **"Approaches to Genre: The Novel. Points of View and/on Sound in Novels"** (Fall 2026).
 [Course page](https://classes.berkeley.edu/content/2026-fall-comlit-202c-001-lec-001)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPOSITORY/blob/main/Sound_in_James_and_Proust.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USERNAME/REPOSITORY/main?labpath=Sound_in_James_and_Proust.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SvenjaGuhr/Sound_and_Loudness_in_Novels_by_James_and_Proust/blob/main/Sound_in_James_and_Proust.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SvenjaGuhr/Sound_and_Loudness_in_Novels_by_James_and_Proust/main?labpath=Sound_in_James_and_Proust.ipynb)
 
 > **Never worked with code before?** You're who this guide is written for. You don't need to install anything or know any programming to explore the material. Start with [Step 1](#step-1-look-at-the-results-no-installation), which only needs a web browser.
 
