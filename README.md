@@ -4,8 +4,8 @@ Repository accompanying the talk in the COMLIT 202C 001 - LEC 001 class at UC Be
 **"Approaches to Genre: The Novel. Points of View and/on Sound in Novels"** (Fall 2026).
 [Course page](https://classes.berkeley.edu/content/2026-fall-comlit-202c-001-lec-001)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPOSITORY/blob/main/Sound_in_James_and_Proust.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USERNAME/REPOSITORY/main?labpath=Sound_in_James_and_Proust.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SvenjaGuhr/Sound_and_Loudness_in_Novels_by_James_and_Proust/blob/main/Sound_in_James_and_Proust.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SvenjaGuhr/Sound_and_Loudness_in_Novels_by_James_and_Proust/main?labpath=Sound_in_James_and_Proust.ipynb)
 
 > **Never worked with code before?** You're who this guide is written for. You don't need to install anything or know any programming to explore the material. Start with [Step 1](#step-1-look-at-the-results-no-installation), which only needs a web browser.
 
@@ -117,6 +117,18 @@ Your changes in Colab are not saved to this repository. If you want to keep your
 3. When JupyterLab opens, choose **Run → Run All Cells**.
 
 Binder sessions are temporary. They close after about ten minutes without activity, and your changes are lost. To keep a changed notebook, use **File → Download** before you leave.
+
+### Option C: Colab with the ZIP file (no GitHub needed)
+
+Use this if the buttons above ask you to sign in to GitHub or request access. You only need a Google account and the repository ZIP file (`Sound_in_James_and_Proust_repo.zip`) from your instructor.
+
+1. Unzip the ZIP file on your computer.
+2. Go to [colab.research.google.com](https://colab.research.google.com) and sign in with your Google account.
+3. Choose **File → Upload notebook** and select `Sound_in_James_and_Proust.ipynb` from the unzipped folder.
+4. Choose **Runtime → Run all**.
+5. Under the cell "Setup for Google Colab" a **Choose files** button appears. Click it and select the **ZIP file itself** (not the unzipped folder). The notebook takes the novels out of it and continues on its own.
+
+The uploaded files stay in Colab only for the current session. If you come back later, repeat steps 4 and 5.
 
 ---
 
@@ -289,7 +301,7 @@ The notebook rewrites `Sound_in_James_and_Proust_report.html` and the charts in 
 | Problem | Solution |
 |---|---|
 | `NameError: name '...' is not defined` | An earlier cell has not run. Choose **Run all**. |
-| `FileNotFoundError` for an XML file | The notebook cannot find the `data/` folder. On your own computer, make sure the notebook is in the same folder as `data/`. In Colab, run the first code cell, which downloads the data. |
+| `FileNotFoundError` for an XML file | The notebook cannot find the `data/` folder. On your own computer, make sure the notebook is in the same folder as `data/`. In Colab, run the cell "Setup for Google Colab" again and upload the ZIP file when asked (see Option C). |
 | `ModuleNotFoundError: No module named 'plotly'` (or another name) | A library is missing. Run `%pip install -r requirements.txt` in a cell, then restart the kernel. |
 | Charts do not appear | Run the cell again. In JupyterLab on your own computer, make sure you opened the notebook in JupyterLab or Jupyter Notebook, not in a plain text editor. |
 | A concordance finds nothing | Check spelling, and remember that the translation of Proust is in British English (*colour*, *honour*). |
