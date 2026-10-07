@@ -1,0 +1,4 @@
+text,author,year,words,units,unit_kind,mean_unit_words,median_unit_words,min_unit_words,max_unit_words,unit_length_cv,relative_length,relative_to_Maisie
+What Maisie Knew,Henry James,1897,98361,32,chapter,3074,3028,1093,6310,0.38,0.46,1.0
+The Golden Bowl,Henry James,1904,212368,42,chapter,5056,4811,2833,7382,0.24,1.0,2.16
+Swann in Love,Marcel Proust,1913,91562,27,segment,3391,3162,3003,5049,0.16,0.43,0.93
